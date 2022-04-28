@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+#define ll  long long
+using namespace std;
+int main(){
+    string s;   cin>>s;
+    if(s==":)")         cout<<"HAPPY FACE\n";
+    else if(s==":(")    cout<<"SAD FACE\n";
+    else if(s==":|")    cout<<"NEUTRAL\n";
+    
+    return 0;
+}
